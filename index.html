@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Instant Answers API</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
@@ -25,21 +26,20 @@
 	      <h1 class="title is-large">
 	        Instant Answers
 	      </h1>
-	      <div class="field">
-				  <div class="control is-large has-icons-right">
-				    <input class="input is-large" type="text" placeholder="Enter a question">
-				    <span id="search-button" class="icon is-small is-right">
-				      <i class="fa fa-search"></i>
-				    </span>
-				  </div>
-				</div>
+	      <form id="search">
+		      <div class="field">
+					  <div class="control is-large has-icons-right">
+					    <input class="input is-large" type="text" placeholder="Enter a question">
+					    <span id="search-button" class="icon is-small is-right">
+					      <i class="fa fa-search"></i>
+					    </span>
+					  </div>
+					</div>
+				</form>
 	    </div>
 	  </div>
 	</section>
-	<section>
-		<article>
-			
-		</article>
+	<section id="results">
 	</section>
 	<script type="text/javascript" src="js/main.js"></script>
   </body>
