@@ -16,11 +16,17 @@
     	.is-loading > span.icon.is-small.is-right {
     		display: none;
     	}
+    	#results .result > a {
+    		display:block;
+    	}
+    	#results .result {
+    		display:block;
+    	}
     </style>
   </head>
   <body>
 	<section class="hero is-light is-bold">
-  	<i class="fa fa-flash fa-6" aria-hidden="true"></i>
+  	<!-- <i class="fa fa-flash fa-6" aria-hidden="true"></i> -->
 	  <div class="hero-body">
 	    <div class="container">
 	      <h1 class="title is-large">
@@ -41,6 +47,8 @@
 	</section>
 	<section id="results">
 	</section>
+	<script type="text/javascript" src="js/dom.js"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
